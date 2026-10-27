@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "jcraftstanddrops"
+version = "1.0.0"
+displayName = "JCraft Stand Drops"
+description = '''
+Enemies that have a JCraft stand can drop Stellar Iron Ingots (the ingot used to craft Stand Arrowheads).
+'''
+
+[[dependencies.jcraftstanddrops]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jcraftstanddrops]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jcraftstanddrops]]
+modId = "jcraft"
+mandatory = true
+versionRange = "[0.18,)"
+ordering = "AFTER"
+side = "BOTH"
